@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF356793172FF8E600BB03FA /* Moularia.m in Sources */ = {isa = PBXBuildFile; fileRef = DF356792172FF8E600BB03FA /* Moularia.m */; };
 		DFF653BA172FF81E000B0EEF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF653B9172FF81E000B0EEF /* Cocoa.framework */; };
 		DFF653C4172FF81F000B0EEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF653C2172FF81F000B0EEF /* InfoPlist.strings */; };
 		DFF653C6172FF81F000B0EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF653C5172FF81F000B0EEF /* main.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF356791172FF8E600BB03FA /* Moularia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moularia.h; sourceTree = "<group>"; };
+		DF356792172FF8E600BB03FA /* Moularia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moularia.m; sourceTree = "<group>"; };
 		DFF653B6172FF81E000B0EEF /* Paparia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paparia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF653B9172FF81E000B0EEF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DFF653BC172FF81F000B0EEF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 				DFF653CC172FF81F000B0EEF /* AppDelegate.m */,
 				DFF653CE172FF81F000B0EEF /* MainMenu.xib */,
 				DFF653C0172FF81F000B0EEF /* Supporting Files */,
+				DF356791172FF8E600BB03FA /* Moularia.h */,
+				DF356792172FF8E600BB03FA /* Moularia.m */,
 			);
 			path = Paparia;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				DFF653C6172FF81F000B0EEF /* main.m in Sources */,
 				DFF653CD172FF81F000B0EEF /* AppDelegate.m in Sources */,
+				DF356793172FF8E600BB03FA /* Moularia.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				DFF653D5172FF81F000B0EEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
