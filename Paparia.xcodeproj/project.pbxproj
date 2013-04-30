@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF653BA172FF81E000B0EEF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF653B9172FF81E000B0EEF /* Cocoa.framework */; };
+		DFF653C4172FF81F000B0EEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF653C2172FF81F000B0EEF /* InfoPlist.strings */; };
+		DFF653C6172FF81F000B0EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF653C5172FF81F000B0EEF /* main.m */; };
+		DFF653CA172FF81F000B0EEF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DFF653C8172FF81F000B0EEF /* Credits.rtf */; };
+		DFF653CD172FF81F000B0EEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF653CC172FF81F000B0EEF /* AppDelegate.m */; };
+		DFF653D0172FF81F000B0EEF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF653CE172FF81F000B0EEF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFF653B6172FF81E000B0EEF /* Paparia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paparia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF653B9172FF81E000B0EEF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DFF653BC172FF81F000B0EEF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DFF653BD172FF81F000B0EEF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DFF653BE172FF81F000B0EEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFF653C1172FF81F000B0EEF /* Paparia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paparia-Info.plist"; sourceTree = "<group>"; };
+		DFF653C3172FF81F000B0EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFF653C5172FF81F000B0EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFF653C7172FF81F000B0EEF /* Paparia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paparia-Prefix.pch"; sourceTree = "<group>"; };
+		DFF653C9172FF81F000B0EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DFF653CB172FF81F000B0EEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFF653CC172FF81F000B0EEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFF653CF172FF81F000B0EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF653B3172FF81E000B0EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF653BA172FF81E000B0EEF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF653AD172FF81E000B0EEF = {
+			isa = PBXGroup;
+			children = (
+				DFF653BF172FF81F000B0EEF /* Paparia */,
+				DFF653B8172FF81E000B0EEF /* Frameworks */,
+				DFF653B7172FF81E000B0EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF653B7172FF81E000B0EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF653B6172FF81E000B0EEF /* Paparia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF653B8172FF81E000B0EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF653B9172FF81E000B0EEF /* Cocoa.framework */,
+				DFF653BB172FF81F000B0EEF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF653BB172FF81F000B0EEF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF653BC172FF81F000B0EEF /* AppKit.framework */,
+				DFF653BD172FF81F000B0EEF /* CoreData.framework */,
+				DFF653BE172FF81F000B0EEF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DFF653BF172FF81F000B0EEF /* Paparia */ = {
+			isa = PBXGroup;
+			children = (
+				DFF653CB172FF81F000B0EEF /* AppDelegate.h */,
+				DFF653CC172FF81F000B0EEF /* AppDelegate.m */,
+				DFF653CE172FF81F000B0EEF /* MainMenu.xib */,
+				DFF653C0172FF81F000B0EEF /* Supporting Files */,
+			);
+			path = Paparia;
+			sourceTree = "<group>";
+		};
+		DFF653C0172FF81F000B0EEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF653C1172FF81F000B0EEF /* Paparia-Info.plist */,
+				DFF653C2172FF81F000B0EEF /* InfoPlist.strings */,
+				DFF653C5172FF81F000B0EEF /* main.m */,
+				DFF653C7172FF81F000B0EEF /* Paparia-Prefix.pch */,
+				DFF653C8172FF81F000B0EEF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF653B5172FF81E000B0EEF /* Paparia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF653D3172FF81F000B0EEF /* Build configuration list for PBXNativeTarget "Paparia" */;
+			buildPhases = (
+				DFF653B2172FF81E000B0EEF /* Sources */,
+				DFF653B3172FF81E000B0EEF /* Frameworks */,
+				DFF653B4172FF81E000B0EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paparia;
+			productName = Paparia;
+			productReference = DFF653B6172FF81E000B0EEF /* Paparia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF653AE172FF81E000B0EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Birdline Software";
+			};
+			buildConfigurationList = DFF653B1172FF81E000B0EEF /* Build configuration list for PBXProject "Paparia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFF653AD172FF81E000B0EEF;
+			productRefGroup = DFF653B7172FF81E000B0EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF653B5172FF81E000B0EEF /* Paparia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF653B4172FF81E000B0EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF653C4172FF81F000B0EEF /* InfoPlist.strings in Resources */,
+				DFF653CA172FF81F000B0EEF /* Credits.rtf in Resources */,
+				DFF653D0172FF81F000B0EEF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF653B2172FF81E000B0EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF653C6172FF81F000B0EEF /* main.m in Sources */,
+				DFF653CD172FF81F000B0EEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFF653C2172FF81F000B0EEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF653C3172FF81F000B0EEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFF653C8172FF81F000B0EEF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF653C9172FF81F000B0EEF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DFF653CE172FF81F000B0EEF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF653CF172FF81F000B0EEF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF653D1172FF81F000B0EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFF653D2172FF81F000B0EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFF653D4172FF81F000B0EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paparia/Paparia-Prefix.pch";
+				INFOPLIST_FILE = "Paparia/Paparia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFF653D5172FF81F000B0EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paparia/Paparia-Prefix.pch";
+				INFOPLIST_FILE = "Paparia/Paparia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF653B1172FF81E000B0EEF /* Build configuration list for PBXProject "Paparia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF653D1172FF81F000B0EEF /* Debug */,
+				DFF653D2172FF81F000B0EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF653D3172FF81F000B0EEF /* Build configuration list for PBXNativeTarget "Paparia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF653D4172FF81F000B0EEF /* Debug */,
+				DFF653D5172FF81F000B0EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF653AE172FF81E000B0EEF /* Project object */;
+}
